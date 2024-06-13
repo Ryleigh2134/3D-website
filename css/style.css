@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding:0;
+}
+nav{
+	width:100vw;
+	height:60px;
+	background-color:white;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+header{
+	width:100vw;
+	height:350px;
+	background-color:#9BC1BC;
+	text-align:center;
+}
+.homepage{
+	width:100vw;
+	height:570px;
+	background-color:white;
+}
+h1{
+	padding:10px;
+	margin:auto;
+	font-family: "Courier Prime", monospace;
+	font-size:85px;
+	color:black;
+	font-weight: 700;
+}
+.center { 
+  height: 350px;
+  position: relative;
+}
+
+.center h1 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+li, a {
+	font-family: "Cutive Mono";
+	font-weight: 800;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+}
+.nav__links {
+	list-style: none;
+}
+.nav__links, li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+}
+.logo{
+	position: relative;
+	left: 10px;
+	top: 2px;
+	cursor: pointer;
+	margin-right: auto;
+}
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+	color: #57736f;
+}
+section{
+	width: 100vw;	
+	height: 1500px;
+	background-color: #9BC1BC;
+}
+.subheading{
+	font-family: "Courier Prime";
+	font-weight: 600;
+	font-size: 22px;
+	color: black;
+	position: relative;
+	top: 2px;
+	margin-right: auto;
+}
