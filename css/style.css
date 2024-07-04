@@ -4,6 +4,10 @@
 body{
 	margin:0;
 	padding:0;
+	overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+	display: none;
 }
 nav{
 	width:100vw;
@@ -75,8 +79,11 @@ li, a {
 }
 section{
 	width: 100vw;	
-	height: 1500px;
+	height: 900px;
 	background-color: #9BC1BC;
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
 }
 .subheading{
 	font-family: "Courier Prime";
@@ -85,9 +92,42 @@ section{
 	color: black;
 	position: relative;
 	top: 2px;
+	right: 650px;
 	margin-right: auto;
 }
 .logoimg{
 	height: 40px;
 	width: 40px;
 }
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-top: 20px;
+}
+.item{
+	width: 900px;
+	height: 400px;
+	background-color: #CCCCCC;
+	transition: all 0.3s ease 0s;
+}
+.item:hover{
+	transform: scale(1.05); 
+}
+.divimg{
+	background-color: white;
+	height: 300px;
+}
+h3{
+	margin: 0;
+	font-family: "Cutive Mono";
+	font-weight: 700;
+}
+p{
+	margin: 0;
+	font-family: "Cutive Mono";
+	font-weight: 400;
+}
+
