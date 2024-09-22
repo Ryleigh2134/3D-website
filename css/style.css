@@ -27,6 +27,7 @@ header{
 	width:100vw;
 	height:570px;
 	background-color:white;
+	padding: 10px;
 }
 h1{
 	padding:10px;
@@ -62,7 +63,7 @@ li, a {
 	padding: 0px 20px;
 }
 .nav__links li a {
-	transition: all 0.3s ease 0s;
+	transition: all 0.1s ease 0s;
 }
 .logo{
 	position: relative;
@@ -71,15 +72,14 @@ li, a {
 	cursor: pointer;
 	margin-right: auto;
 }
-.nav__links li a {
-	transition: all 0.3s ease 0s;
-}
+
 .nav__links li a:hover {
-	color: #57736f;
+	color: #79a39d;
+	font-size: 20px;
 }
 section{
 	width: 100vw;	
-	height: 900px;
+	height: 920px;
 	background-color: #9BC1BC;
 	display: inline-block;
 	align-items: center;
@@ -110,7 +110,7 @@ section{
 .item{
 	width: 900px;
 	height: 400px;
-	background-color: #CCCCCC;
+	background-color: white;
 	transition: all 0.3s ease 0s;
 }
 .item:hover{
@@ -128,6 +128,100 @@ h3{
 p{
 	margin: 0;
 	font-family: "Cutive Mono";
-	font-weight: 400;
+	font-weight: 550;
 }
-
+.item2{
+	width: 700px;
+	height: 380px;
+	padding: 5px;
+	background-color: white;
+}
+.container2{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.image2{
+	position: relative;
+	left: 745px;
+	bottom: 785px;
+	height: 785px;
+	width: 1150px;
+}
+.timeline{
+	height: 700px;
+	width: 1900px;
+}
+.item3{
+	width: 700px;
+	height: 380px;
+	background-color: white;
+}
+.kriegsmesser{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin: 20px;
+	background-image: url(../images/kriegsmesser2.jpg);
+	height:810px;
+}
+.jian{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin: 20px;
+	background-image: url(../images/jian2.jpg);
+	height:810px;
+}
+.gunto{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin: 20px;
+	background-image: url(../images/gunto2.jpg);
+	height:810px;
+}
+.broadsword{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin: 20px;
+	background-image: url(../images/broadsword.jpg);
+	height:810px;
+}
+.item3{
+	background-color: white;
+	outline: 10px;
+	outline-color: black;
+	padding: 3px;
+}
+h2{
+	margin: 0;
+	font-family: "Cutive Mono";
+	font-weight: 700;
+}
+p2{
+	margin: 0;
+	font-family: "Cutive Mono";
+	font-weight: 600;
+	font-size: 17px;
+}
+.specifications{
+	font-family: "Cutive Mono";
+	font-weight: 600;
+	font-size: 17px;
+	display: flex;
+  flex-direction: column;
+}
